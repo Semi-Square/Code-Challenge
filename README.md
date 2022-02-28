@@ -1,5 +1,5 @@
 # Code-Challenge
 
-USERNAME TO BE TESTED WITH - eve.holt@reqres.in (password anything)
+USERNAME FOR SUCCESSFUL LOGIN - eve.holt@reqres.in (password can be anything)
 
-APIS used - https://reqres.in/
+DUMMY APIS used from here - https://reqres.in/
