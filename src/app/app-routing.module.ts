@@ -1,3 +1,4 @@
+import { ErrorPageComponent } from './pages/error-page/error-page.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -16,10 +17,15 @@ const routes: Routes = [
     canActivate: [AuthGuard],
   },
   {
+    path: 'error-page',
+    component: ErrorPageComponent
+  },
+  {
     path: '',
     redirectTo: 'login',
     pathMatch: 'full'
-  }
+  },
+  { path: '**', pathMatch: 'full', component: ErrorPageComponent },
 ];
 
 @NgModule({
